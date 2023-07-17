@@ -3,11 +3,12 @@
 // ####################################
 
 function liftOff() {
-  let count = 10
+ let numberCount = prompt (' what number whould you like to count down from? ')
+
+  let count = numberCount
  
   while (count > 0) {
-    alert(count + '...')
-    count = count - 1
+    alert(count = count - 1)
   }
    
   alert('Lift Off!')
